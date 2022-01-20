@@ -18,7 +18,7 @@ The goal of this project is to test the performance of various models in the tas
 * XGBoost
 
 ### Project description
-A dataset of 400k cars for sale on craigslist was obtained from Kaggle. The data was then massaged into a useable state.
+A dataset of 400k cars for sale on craigslist was obtained from [Kaggle](https://www.kaggle.com/austinreese/craigslist-carstrucks-data). The data was then massaged into a useable state.
 Circa half of the dataset did not meet the neccesary requirements due to reasons such as missing values, outliers or rare car manufacturers (eg. Porsche).
 The next step was to use a baseline model. After that I used different techniques to try to forecast the prices of cars. This includes regressions, trees and neural networks. The models where selected using grid search on basic parameter grid. 10 fold cross validation was used.
 
